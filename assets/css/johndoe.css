@@ -11700,6 +11700,12 @@ pre .code {
   animation: slide 50s linear infinite; /* Slide animation */
   width: fit-content;
 }
+ .slider-track:hover {
+  animation-play-state: paused;
+}
+.track {
+  display: flex;
+}
 
 .certificate-item {
   flex: 0 0 auto;
@@ -11756,14 +11762,7 @@ pre .code {
 }
 
 /* Slide Animation */
-@keyframes slide {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
+
 
 
 
