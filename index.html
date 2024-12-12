@@ -25,9 +25,9 @@
 
 
 
-    
-    
-    
+
+
+
     </script>
 </head>
 <body data-offset="40" data-spy="scroll" data-target=".navbar" id="home">
@@ -313,6 +313,7 @@
         <h1 class="mb-5"><span class="text-danger">My</span> Certificates</h1>
         <div class="certificate-slider">
             <div class="slider-track">
+                <div class="track">
                 <!-- Certificate Item -->
                 <div class="certificate-item">
                     <img alt="Tableau Certificate" class="certificate-img" loading="lazy"
@@ -377,6 +378,8 @@
                         </div>
                     </div>
                 </div>
+
+                    </div>
             </div>
         </div>
     </div>
@@ -798,8 +801,8 @@
 <!-- JohnDoe js -->
 <script src="assets/js/johndoe.js"></script>
 <script>
-      let copy = document.querySelector(".slider-track").cloneNode(true);
-      document.querySelector(".certificate-slider").appendChild(copy);
+      let copy = document.querySelector(".track").cloneNode(true);
+      document.querySelector(".slider-track").appendChild(copy);
 </script>
 </body>
 </html>
