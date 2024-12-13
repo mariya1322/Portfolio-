@@ -11686,6 +11686,16 @@ pre .code {
   margin-top: 10px;
 }
 
+/* Slide Animation */
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
 
 /* Portfolio Slider */
 .certificate-slider {
@@ -11697,7 +11707,7 @@ pre .code {
 
 .slider-track {
   display: flex;
-  animation: 50s slide infinite linear;
+  animation: 70s slide infinite linear;
   width: fit-content;
 }
  .slider-track:hover {
@@ -11761,21 +11771,13 @@ pre .code {
   margin: 0;
 }
 
-/* Slide Animation */
 
 
 
 
 
 
-@keyframes slide {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-100%);
-  }
-}
+
 
 .portfolio {
   overflow: hidden;/*
