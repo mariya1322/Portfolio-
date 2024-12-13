@@ -11809,7 +11809,7 @@ pre .code {
 
 .portfolio-container {
   display: inline-block;
-  animation: 30s slide infinite linear;
+  animation: 50s slide infinite linear;
 }
 .scrolling-image {
   display: inline-block;
