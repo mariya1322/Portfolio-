@@ -11697,7 +11697,7 @@ pre .code {
 
 .slider-track {
   display: flex;
-  animation: slide 60s linear infinite; /* Slide animation */
+  animation: 50s slide infinite linear;
   width: fit-content;
 }
  .slider-track:hover {
